@@ -12,14 +12,9 @@
         <div card>
             <div class="content">
                  <h2>1</h2>
-                 <h3>Kratus</h3>
+                 <h3></h3>
                  <p>
-                    Eu vim para essas terras para escapar do meu passado. 
-                    Para começar uma nova vida. Não posso mais me esconder. 
-                    Eu não quero esta guerra. Já sofremos o suficiente. 
-                    A profecia não nos trouxe até aqui. Nem vai ganhar esta 
-                    batalha. Guerras são vencidas por aqueles que estão dispostos
-                    a sacrificar tudo. Se esse é o custo da vingança... que assim seja.
+
                  </p>
                  <a href="#" target="_blank">Ver Mais</a>
             </div>
@@ -28,10 +23,9 @@
             <div class="card">
                 <div class="content">
                     <h2>2</h2>
-                    <h3>Atreus</h3>
+                    <h3></h3>
                     <p>
-                    Temos que ser mais do que um monte de histórias com 
-                    nossos finais já escritos.
+
                     </p>
                     <a href="#" target="_blank">Ver Mais</a>
                 </div>
@@ -40,14 +34,9 @@
                 <div class="card">
                     <div class="content">
                         <h2>3</h2>
-                        <h3>Mimir</h3>
+                        <h3></h3>
                         <p>
-                            Eu? Sou o maior embaixador dos Deuses, dos Gigantes
-                            e de todas as criaturas dos Nove Reinos. Conheço todos os cantos
-                            dessas terras, todas as línguas faladas, todas as guerras travadas,
-                            todos os negócios já fechados. Eles me chamam de…
-                            Mimir! --homem mais inteligente vivo, e eu tenho a resposta para todas
-                            as suas perguntas.
+
                         </p>
                         <a href="#" target="_blank">Ver Mais</a>
                     </div>
