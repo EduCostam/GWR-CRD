@@ -55,7 +55,7 @@ body
     radial-gradient(3px 3px at 350px 500px, #fff, transparent);
     background-size: 650px 650px;
 
-    animation: snowAnim 3s linear;
+    animation: snowAnim 10s linear;
     animation-iteration-count: infinite;
 }
 
@@ -64,7 +64,7 @@ body
     opacity: 0.5;
     filter: blur(2px);
     animation-direction: reverse;
-    animation-duration: 5s;
+    animation-duration: 10s;
 }
 
 @keyframes snowAnim
