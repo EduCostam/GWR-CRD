@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
 
 *
+
+
 {
     margin: 0;
     padding: 0;
@@ -8,14 +10,71 @@
     font-family: 'Roboto', sans-serif;
 }
 
+*,*:after,*:before
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 body
 {
+    font-size: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background: url(./fundo.png);
     background-size: cover;
+}
+
+.snow_wrap
+{
+    background: url(./fundo.png);
+    background-position: center bottom;
+  
+}
+
+.snow,.snow:after,.snow:before
+{
+    content: "";
+    position: absolute;
+    top: -650px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: 
+    radial-gradient(4px 4px at 100px 50px, #fff, transparent),
+    radial-gradient(6px 6px at 200px 150px, #fff, transparent),
+    radial-gradient(3px 3px at 300px 250px, #fff, transparent),
+    radial-gradient(4px 4px at 400px 350px, #fff, transparent),
+    radial-gradient(6px 6px at 500px 100px, #fff, transparent),
+    radial-gradient(3px 3px at 50px 200px, #fff, transparent),
+    radial-gradient(4px 4px at 150px 3000px, #fff, transparent),
+    radial-gradient(6px 6px at 250px 400px, #fff, transparent),
+    radial-gradient(3px 3px at 350px 500px, #fff, transparent);
+    background-size: 650px 650px;
+
+    animation: snowAnim 3s linear;
+    animation-iteration-count: infinite;
+}
+
+.snow:after{
+    margin-left: -250px;
+    opacity: 0.5;
+    filter: blur(2px);
+    animation-direction: reverse;
+    animation-duration: 5s;
+}
+
+@keyframes snowAnim
+{
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(650px);
+    }
 }
 
 .card
@@ -60,6 +119,7 @@ body
 .card .poster img
 {
     width: 100%;
+    height: 100%;
     transition: 0.5s;
 }
 
@@ -72,7 +132,7 @@ body
 .card .details
 {
     position: absolute;
-    bottom: -250px;
+    bottom: -210px;
     left: 0;
     padding: 20px;
     width: 100%;
